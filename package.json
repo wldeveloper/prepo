@@ -1,0 +1,30 @@
+{
+  "name": "prepo",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "bin": {
+    "prepo": "./bin/pull.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "keywords": [],
+  "author": "wulei",
+  "email": "wulei.fe@gmail.com",
+  "license": "ISC",
+  "engines" : { "node" : ">=6.0.0" },
+  "scripts": {
+    "start": "node ./src/pull.js",
+    "build": "rimraf bin && babel src -d bin --copy-files"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "progress": "^2.0.3",
+    "shelljs": "^0.8.3",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
+}

@@ -1,0 +1,37 @@
+### windows ###
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN
+
+### MAC OS ###
+*.DS_Store
+
+### svn/git ###
+.svn
+.git
+
+### vscode ###
+.vscode
+.history
+
+### WebStorm ###
+.idea
+*.stackdump
+
+### node ###
+node_modules
+es
+lib
+dist
+
+### npm/yarn ###
+package-lock.json
+
+### webpack ###
+
+### others ###
+*.log
+*.tar
+.tern-port
+.cosfig
